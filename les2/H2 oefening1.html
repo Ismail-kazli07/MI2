@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="beschrijving van de webpagina">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <title>Oefening 1 H2</title>
+    <link rel="stylesheet" href="stijlbladoefening1.css"> </head>
+
+<body>
+    <script type="text/javascript">
+        var c = 0;
+        for (x = 1; x <= 8; x++){
+            for (y = 1; y <= 8; y++){
+                if (y % 2 == c){
+                    document.write('<div class=wit><\/div>');
+                }else{
+                    document.write('<div class=zwart><\/div>');
+                }
+            }
+        
+            if (x % 2 == 0) {
+                c = 0;
+            }
+            else {
+                c = 1;
+            }
+            document.write('<br>');
+            document.write('<br>');
+        }
+    </script>
+</body>
+
+</html>
