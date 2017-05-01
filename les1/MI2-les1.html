@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" >
+		<meta name="description" content="beschrijving van de webpagina" >
+		<meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+        <meta name="viewport" content="width=device-width, height=device-height" />
+		<title>Javascript</title>
+
+	</head>
+    <body>
+<script type="text/javascript">
+function optellen(getal1, getal2){
+    return getal1 + getal2;
+}
+   
+
+function aftrekken(getal1, getal2){
+    return getal1 - getal2;
+}
+   
+
+function vermenigvuldiging(getal1, getal2){
+    return getal1 * getal2;
+}
+    
+function deling(getal1, getal2){
+    return getal1 / getal2;
+}
+     document.write('de uitkomst is: '+ optellen(5, 3)+ '<br>');
+     document.write('de uitkomst is: '+ aftrekken(10, 5)+ '<br>');
+    document.write('de uitkomst is: '+ vermenigvuldiging(8, 36)+ '<br>');
+
+    document.write('de uitkomst is: '+ deling(22, 5)+ '<br>');    
+    function Optelling(){
+        this.cijfer1 = 10
+        this.cijfer2 = 20
+    }
+    
+    var optelling = new Optelling;
+    document.write("som : " +(optelling.cijfer1 + optelling.cijfer2) + '<br>')
+    optelling.cijfer1 = 9;
+    optelling.cijfer2 = 5;
+    document.write("som : " +(optelling.cijfer1 + optelling.cijfer2) + '<br>')
+    
+    function Aftrekking(){
+        this.cijfer3 = 50
+        this.cijfer4 = 9
+    }
+    
+    var aftrekking = new Aftrekking;
+    document.write("uitkomst is : " +(aftrekking.cijfer3 + aftrekking.cijfer4) + '<br>')
+    aftrekking.cijfer3 = 25;
+    aftrekking.cijfer4 = 30;
+    document.write("uitkomst is : " +(aftrekking.cijfer3 + aftrekking.cijfer4) + '<br>')
+    
+    function Vermenigvuldig(){
+        this.cijfer5 = 14
+        this.cijfer6 = 84
+    }
+    
+    var vermenigvuldig = new Vermenigvuldig;
+    document.write("uitkomst is : " +(vermenigvuldig.cijfer5 + vermenigvuldig.cijfer6) + '<br>')
+    vermenigvuldig.cijfer5 = 63;
+    vermenigvuldig.cijfer6 = 79;
+    document.write("uitkomst is : " +(vermenigvuldig.cijfer5 + vermenigvuldig.cijfer6) + '<br>')
+    
+    function Deel(){
+        this.cijfer7 = 14
+        this.cijfer8 = 84
+    }
+    
+    var delen = new Deel;
+    document.write("uitkomst is : " +(delen.cijfer7 + delen.cijfer8) + '<br>')
+    delen.cijfer7 = 63;
+    delen.cijfer8 = 79;
+    document.write("uitkomst is : " +(delen.cijfer7 + delen.cijfer8) + '<br>')
+    
+   
+</script>  
+</body>
+</html>
