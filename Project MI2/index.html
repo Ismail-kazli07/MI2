@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    
+    <meta charset="utf-8" />
+    <title>Traffic racer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Css/framework7.material.min.css">
+    <link rel="stylesheet" href="Css/framework7.material.colors.min.css">
+    <link rel="stylesheet" href="Css/my-app.css">
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-1.11.2.min.js"></script>
+   
+</head>
+
+<body>
+    <div class="panel-overlay"></div>
+    <div id="panelLeft" class="panel panel-left panel-reveal">
+    <p>Left panel</p>
+    </div>
+    <div class="panel panel-right panel-cover">
+    <p> right panel </p>
+    </div>
+    <div class="views">
+        <div class="view view-main">
+            <div class="navbar">
+            </div>
+            <div class="toolbar">
+            <div class="toolbar-inner"> <a href="#" class=" button link icon-only open-panel" onclick="">
+            Left panel</a> <a href="#" class="button" onclick="">items</a> <a href="#" data-panel="right" class="button open-panel">
+            Right panel</a> </div>
+            </div>
+            <div class="page-content">    
+            <div id="help">
+            <p>Pijtles: Boven, Beneden, Rechts en Links</p>
+            </div>
+            <div id="score_div">
+             Score: <span id="score">0</span>
+            </div>
+    <div id="container">
+        <div id="line_1" class="line"></div>
+        <div id="line_2" class="line"></div>
+        <div id="line_3" class="line"></div>
+        <div id="car" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_1" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_2" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_3" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="restart_div">
+            <button id="restart">
+                Restart<br>
+                <small class="small_text">(press Enter)</small>
+            </button>
+        </div>
+        </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+                
+                <footer bottum="10px">
+                    <p>&copy; Copyright by Ismail Kazli</p>
+                </footer>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>
